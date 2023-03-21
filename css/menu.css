@@ -1,0 +1,39 @@
+﻿
+
+.menu_global li {
+    position: absolute;
+    display: flex;
+    margin: 17px 100px;
+    text-align: center;
+	
+}
+
+.menu_global a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 17px 50px;
+}
+.menu_local ul {
+	list-style: none;
+	padding: 0px;
+    
+}
+.menu_local li {
+    margin: 15px 29px;	
+}
+
+.menu_local a {
+    background-color: #eee; 
+    color: black; 
+    display: block;
+    padding: 12px; 
+    text-decoration: none; 
+}
+
+.menu_local a:hover {
+    background-color: #ccc; 
+}
+.menu_local a:active {
+    background-color: rgb(240, 208, 150); 
+  color: white;
+}
